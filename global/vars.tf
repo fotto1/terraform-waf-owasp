@@ -1,5 +1,5 @@
 variable "waf_prefix" {
-  type = list(string)
+  type = string
 }
 
 variable "blacklisted_ips" {
